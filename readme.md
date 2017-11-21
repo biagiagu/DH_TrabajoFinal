@@ -8,6 +8,10 @@
 </p>
 
 ## Sobre el Trabajo Final
+# v 0.2.0
+Se agrego la funcionalidad de control de usuarios, signin y login.
+
+
 # v 0.1.0
 **Migrations**
 
@@ -18,7 +22,7 @@ Crean las tablas:
 - Products (FK Categories FALLO!!! Tuve que crearla en Workbench)
 - Prices (con FK_products)
 - Categories
-- Suppliers 
+- Suppliers
 - Stocks (con FK_products y FK_suppliers)
 - Images (con FK_products)
 - Product_supplier ((con FK_products y FK_suppliers)

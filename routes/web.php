@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::get('/productos/listar', 'productsController@list');
 Route::get('/productos/crear', 'productsController@create');
 Route::get('/productos/modificar', 'productsController@modify');
+
+//Auth::routes();
+
+//Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
