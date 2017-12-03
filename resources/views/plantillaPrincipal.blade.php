@@ -3,7 +3,7 @@
     <head>
         <title>@yield("titulo")</title>
         <link rel="stylesheet" type="text/css" href="/css/app.css">
-        <link rel="stylesheet" type="text/css" href="/css/micss.css">
+        <link rel="stylesheet" type="text/css" href="/css/mipagination.css">
         @yield("css")
     </head>
     <body>
@@ -11,7 +11,7 @@
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="/">NombreDelNegocio</a>
+                        <a class="navbar-brand" href="/">The Blondie</a>
                     </div>
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="/">Home</a></li>

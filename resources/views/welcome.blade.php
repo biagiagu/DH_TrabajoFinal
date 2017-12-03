@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    NombreDelNegocio
+                    The Blondie
                 </div>
 
                 <div class="links">

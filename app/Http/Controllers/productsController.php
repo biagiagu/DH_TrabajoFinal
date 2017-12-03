@@ -14,10 +14,6 @@ class productsController extends Controller
     public function list(){
         $products=product::paginate(10);
 
-        //foreach ($products as $product){
-        //    echo $product->name." ".$product->price." HASTA ACá!!!"."<br>";
-        //}
-
         return view('listarProductos', compact('products'));
     }
 }

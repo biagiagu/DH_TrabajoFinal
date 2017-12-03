@@ -1,0 +1,56 @@
+header ul {
+    list-style: none;
+    overflow: hidden;
+    margin-top:25px;
+}
+
+header ul li {
+    float: right;
+    padding-right: 25px;
+    color: black;
+    text-decoration: underline;
+}
+
+header form.buscar input {
+    float:left;
+    display: block;
+}
+
+header form.buscar {
+    position: relative;
+}
+
+header input.buscar {
+    width: 68%;
+    margin-right: 2%
+}
+
+header form.buscar {
+    overflow: hidden;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: lightcoral !important;
+    border-color: lightcoral !important;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{
+    background: lightpink;
+}
+
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+    margin-left: 0;
+    border-bottom-left-radius: 24px;
+    border-top-left-radius: 24px;
+}
+
+span.page-link{
+    color: red !important;
+    /*background-color: lightcoral !important;
+    border-color: lightcoral !important;*/
+}

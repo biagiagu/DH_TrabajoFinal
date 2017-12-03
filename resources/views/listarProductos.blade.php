@@ -1,5 +1,9 @@
 @extends("plantillaPrincipal")
 
+@section("css")
+    <link rel="stylesheet" type="text/css" href="css/mipagination.css">
+@endsection
+
 @section("contenido")
     <h2>
         Productos
@@ -8,10 +12,11 @@
         @foreach($products as $product)
             <li>
                 <a href="#">
-                    {{$product->name}}
+                    {{$product->name." - ".$product->description}}
                 </a>
             </li>
         @endforeach
     </ul>
-    {{ $products->links() }}
+    {{ $products->links('vendor.pagination.semantic-ui') }}
 @endsection
+
